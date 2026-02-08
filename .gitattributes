@@ -1,1 +1,17 @@
+# Ignore Java
 *.java linguist-vendored
+
+# Ignore Python
+*.py linguist-vendored
+
+# Ignore C/C++
+*.cpp linguist-vendored
+*.hpp linguist-vendored
+*.h linguist-vendored
+
+# Ignore Go
+*.go linguist-vendored
+
+# Ignore TypeScript/JS
+*.ts linguist-vendored
+*.js linguist-vendored
