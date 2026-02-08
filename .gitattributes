@@ -1,17 +1,27 @@
-# Ignore Java
+# --- IGNORE THESE (So Rust becomes #1) ---
+
+# Java
 *.java linguist-vendored
 
-# Ignore Python
-*.py linguist-vendored
+# C# (This is why you are seeing C# now)
+*.cs linguist-vendored
+*.csproj linguist-vendored
 
-# Ignore C/C++
+# C++
 *.cpp linguist-vendored
 *.hpp linguist-vendored
 *.h linguist-vendored
 
-# Ignore Go
+# Python
+*.py linguist-vendored
+
+# Go (Golang)
 *.go linguist-vendored
 
-# Ignore TypeScript/JS
+# TypeScript / JavaScript
 *.ts linguist-vendored
+*.tsx linguist-vendored
 *.js linguist-vendored
+
+# --- FORCE RUST ---
+*.rs linguist-detectable
